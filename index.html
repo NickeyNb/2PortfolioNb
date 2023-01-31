@@ -13,43 +13,45 @@
 </head>
 
 <body>
-    <header class="header" id="header">
-        <div class="container">
+    <header class="home" id="#header">
+        <div class="first">
             <div class="left">
-                <div class="name">
-                    <h2>Hi,</h2>
-                    <h1>I'm <a href="#aboutt">Nitin Bisht</a> </h1>
-                    <h3>A passionate Learner</h2>
-                </div>
-                <div class="btn">
-                    <a href="./links/ResumeNb.pdf" download target="blank" class="btn-a"> Resume <i class="fa-solid fa-download"></i></a>
-                    <a href="#talkk" class="btn-b">Connect<i class="fa-regular fa-message"></i></a>
-                </div>
+                <h2>Hi,</h2>
+                <h1>I'm <a href="#aboutt">Nitin Bisht</a> </h1>
+                <h3>A passionate Learner</h2>
+                <a href="./links/ResumeNb.pdf" download target="blank" class="btn"> Resume
+                        <i class="fa-solid fa-download"></i></a>
+                <a href="#talkk" class="btn">Connect<i class="fa-regular fa-message"></i></a>
             </div>
             <div class="right">
-                <div class="dp">
-                    <img src="./logo/mainLogo.png" alt="">
-                </div>
+                <img src="./logo/blah.png" alt="">
             </div>
         </div>
         <div class="arrow_btn">
             <a href="#aboutt"><img src="./icons/arrow.png" alt="" class="arr"></a>
         </div>
     </header>
+    <!-- ============================================= -->
 
-    <main class="imp">
+    <div class="nv active sticky">
+        <img src="./logo/mainLogo.png" alt="thapa technical logo" class="logo" />
         <nav class="navv">
-            <a href="#header"><img src="./logo/mainLogo.png" class="logo"> </a>
-            <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#aboutt">About</a></li>
-                <li><a href="#skilll">Skills</a></li>
-                <li><a href="#projectt">Projects</a></li>
-                <!-- <li><a href="#certificatee">Certificates</a></li> -->
-                <li><a href="#talkk">Contact</a></li>
+            <ul class="navList">
+                <li><a class="navLink" href="#header">Home</a></li>
+                <li><a class="navLink" href="#aboutt">About</a></li>
+                <li><a class="navLink" href="#skilll">Skills</a></li>
+                <li><a class="navLink" href="#projectt">Projects</a></li>
+                <li><a class="navLink" href="#talkk">Contact</a></li>
             </ul>
         </nav>
-        <!-- about -->
+
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </div>
+    <!-- about -->
+    <main class="imp">
         <section class="about">
             <div class="containerAbout">
                 <div class="headingAbout" id="aboutt">
@@ -202,55 +204,7 @@
                 </div>
             </div>
         </section>
-        <!-- ====================================================== -->
-        <!-- Certificates -->
-        <!-- <section class="certificate">
-            <div class="containerCertiicate" id="certificatee">
-                <div class="headingCertificate">
-                    <h1>My Certificates</h1>
-                </div>
-                <div class="row1">
-                    <div class="certificateCol1">
-                        <div class="certificateName">
-                            <h4>My Portfolio</h4>
-                        </div>
-                        <div class="projectPhoto">
-                            <img src="" alt="My Portfolio Website">
-                        </div>
-                        <div class="btn">Info</div>
-                    </div>
-                    <div class="certificateCol1">
-                        <div class="certificateName">
-                            <h4>Suduko Application</h4>
-                        </div>
-                        <div class="projectPhoto">
-                            <img src="" alt="My Suduko Application">
-                        </div>
-                        <div class="btn">Info</div>
-                    </div>
-                </div>
-                <div class="row2">
-                    <div class="certificateCol1">
-                        <div class="certificateName">
-                            <h4>My Portfolio</h4>
-                        </div>
-                        <div class="projectPhoto">
-                            <img src="" alt="My Portfolio Website">
-                        </div>
-                        <div class="btn">Info</div>
-                    </div>
-                    <div class="certificateCol1">
-                        <div class="certificateName">
-                            <h4>Suduko Application</h4>
-                        </div>
-                        <div class="projectPhoto">
-                            <img src="" alt="My Suduko Application">
-                        </div>
-                        <div class="btn">Info</div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+
 
         <!-- =================================================================== -->
 
@@ -265,7 +219,9 @@
                         <div class="text">
                             <i class="fa-brands fa-telegram"></i>
                             <h3>Telegram</h3>
-                            <a href="#"> <h2>Send Message !</h2></a>
+                            <a href="#">
+                                <h2>Send Message !</h2>
+                            </a>
                         </div>
                     </div>
 
@@ -273,7 +229,9 @@
                         <div class="text">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <h3> Instagram</h3>
-                            <a href="#"> <h2>Send Message !</h2></a>
+                            <a href="#">
+                                <h2>Send Message !</h2>
+                            </a>
 
 
                         </div>
@@ -283,7 +241,9 @@
                         <div class="text">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             <h3> Email</h3>
-                            <a href="#"> <h2>Send Message !</h2></a>
+                            <a href="#">
+                                <h2>Send Message !</h2>
+                            </a>
 
                         </div>
                     </div>
@@ -320,7 +280,8 @@
             <div class="containerEnd">
                 <div class="endIcons">
                     <div class="iconn1">
-                        <a href="https://www.linkedin.com/in/nitin-nb-3998091b6/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/nitin-nb-3998091b6/"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <div class="iconn3">
                         <a href="https://github.com/NickeyNb"><i class="fa-brands fa-github"></i></a>
@@ -343,6 +304,9 @@
             </div>
         </section>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
