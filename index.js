@@ -8,11 +8,11 @@ const toggleNavbar = () => {
 mobile_nav.addEventListener("click", () => toggleNavbar());
 
 
-// const sr = ScrollReveal({
-//   distance:'50px',
-//   duration:2000,
-//   reset:true
-// })
+const sr = ScrollReveal({
+  distance:'50px',
+  duration:2000,
+  reset:true
+})
 
 sr.reveal('.left, .Project, .contactInfo',{delay:170, origin:'left'});
 sr.reveal('.right, .contactForm, .endIcons, .mySkills1, .arrow_btn',{delay:170, origin:'right'});
