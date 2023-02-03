@@ -856,17 +856,17 @@ form {
         margin: 0;
     }
     .left h2{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         transition: 0.3s ease-in-out;
     }
     .left h1 {
-        font-size: 24px;
+        font-size: 25px;
         font-weight: 500;
         transition: 0.3s ease-in-out;
     }
     .left h1 a {
-        font-size: 31px;
+        font-size: 33px;
         font-weight: 500;
         transition: 0.3s ease-in-out;
     }
