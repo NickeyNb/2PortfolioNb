@@ -14,10 +14,10 @@ const sr = ScrollReveal({
   reset:true
 })
 
-sr.reveal('.left, .about-col-1, .Project, .contactInfo',{delay:170, origin:'left'});
-sr.reveal('.right,.about-col-2, .contactForm, .endIcons, .mySkills1',{delay:170, origin:'right'});
-sr.reveal('.headingAbout',{delay:170, origin:'top'});
-sr.reveal('.last, .publish, .arrow_btn',{delay:170, origin:'bottom'});
+sr.reveal('.left, .about-col-1, .Project, .contactInfo, .last',{delay:170, origin:'left'});
+sr.reveal('.right,.about-col-2, .contactForm, .endIcons, .mySkills1, .arrow_btn',{delay:170, origin:'right'});
+sr.reveal('.headingAbout, .publish',{delay:170, origin:'top'});
+// sr.reveal(', .publish, .arrow_btn',{delay:170, origin:'bottom'});
 
 
 
