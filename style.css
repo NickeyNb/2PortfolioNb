@@ -815,7 +815,8 @@ form {
 }
 
 @media(max-width:700px) { 
-     ::-webkit-scrollbar-track {
+    
+    ::-webkit-scrollbar-track {
         /* display: none; */
         background: aquamarine;
         border: 2px solid black;
@@ -829,7 +830,8 @@ form {
         margin-block: .5em;
         border-radius: 100vh;
     }
-      .first {  
+    .first {
+        
         grid-template-columns: 1fr;
         grid-template-areas: 
         "img"
@@ -948,7 +950,7 @@ form {
         color:pink;
     }
     .text h3,
-    .text a {
+    .text .msg {
         display: none;
     }
     
