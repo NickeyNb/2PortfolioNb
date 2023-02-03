@@ -564,7 +564,6 @@ form {
     background: #171717;
     border: 5px solid wheat;
     border-radius: 2rem;
-    /* width: auto; */
     gap: 1rem;
     margin-left: 5rem;
     padding: 1rem;
@@ -857,17 +856,17 @@ form {
         margin: 0;
     }
     .left h2{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         transition: 0.3s ease-in-out;
     }
     .left h1 {
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 500;
         transition: 0.3s ease-in-out;
     }
     .left h1 a {
-        font-size: 30px;
+        font-size: 31px;
         font-weight: 500;
         transition: 0.3s ease-in-out;
     }
@@ -877,7 +876,7 @@ form {
     .right {
         grid-area: img;
         padding-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
 
     }
     .right img {
