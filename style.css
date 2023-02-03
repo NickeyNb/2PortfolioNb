@@ -844,12 +844,12 @@ form {
         align-items: center;
         padding: 0;
         margin: 0;
-        margin-left: 3rem;
+        margin-left: 0.7rem;
     }
     .right {
         grid-area: img;
         padding-top: 1rem;
-        margin-left: 4rem;
+        margin-left: 2rem;
 
     }
     .right img {
