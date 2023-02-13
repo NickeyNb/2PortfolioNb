@@ -888,7 +888,7 @@ form {
     .left {
         grid-area: text;
         padding: 0;
-        margin: 0;
+        margin: 1rem;
     }
     .left h2{
         font-size: 20px;
@@ -1001,6 +1001,9 @@ form {
         font-size: 20px;
 
     }
+    .containerTalk {
+        margin-top: 1.5rem;
+    }
     .contactInfo {
         display: flex;
         flex-direction: row;
@@ -1029,7 +1032,13 @@ form {
         display: none;
     }
     
-
+    .contactForm h2 {
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .contactForm .pi {
+        padding-top: 0;
+    }
     .contactForm .ip input {
         border: 2px solid wheat;
         width:85%;
