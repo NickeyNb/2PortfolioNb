@@ -35,7 +35,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -161,11 +161,14 @@ body h1 {
 
 .nv {
     /* margin-top: 20rem; */
+    position: sticky;
+    top: 0;
     height: 7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    opacity: 0.9;
     box-shadow: #8A2BE2;
 }
 
@@ -923,11 +926,9 @@ form {
         color: #212529;
         margin-right: 1rem;
     }
-
     .nv {
         position: relative;
     }
-
     .nv .logo {
         margin-left:1rem;
     }
@@ -988,7 +989,6 @@ form {
         padding: 0;
         margin: 4rem;
     }
-
     .layerProject h4 {
 
         font-size: 13px;
