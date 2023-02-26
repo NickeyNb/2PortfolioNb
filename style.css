@@ -51,7 +51,7 @@ body h1 {
     font-weight: 600;
 }
 .first {
-    padding-top:150px; 
+    padding-top:75px; 
     padding-left: 60px;
     padding-right: 60px;
 
@@ -133,7 +133,7 @@ body h1 {
     border:3px solid aqua;
 }
 .arrow_btn {
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
 }
 .arrow_btn .arr {
     margin-top: 10rem;
@@ -450,7 +450,7 @@ article {
     text-align: center;
     border-radius: 20px;
     padding-bottom: 8px;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 
@@ -461,7 +461,7 @@ article {
     font-family: 'Montserrat', sans-serif;
 }
 .Project:hover {
-    transform: scale(1.12);
+    transform: scale(1.1);
     border: 4px solid #8A2BE2;
     font-family: 'Poppins', sans-serif;
 }
@@ -489,7 +489,7 @@ article {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-size: 15x;
+    /* font-size: 15x; */
     transition: width 0.8s;
 }
 
@@ -788,7 +788,7 @@ form {
         text-align: center;
         border-radius: 2rem;
         padding-bottom: 1rem;
-        position: relative;
+        /* position: relative; */
         overflow: hidden;
     }
     .Project:hover {
@@ -920,6 +920,13 @@ form {
     .right img {
         max-width: 50%;
     }
+    .arrow_btn {
+        margin-bottom: 12rem;
+    }
+    .arrow_btn .arr {
+        margin-top: 1rem;
+    }
+    /* =============================== */
     .mobile-navbar-btn {
         display: block;
         z-index: 999;
@@ -927,7 +934,8 @@ form {
         margin-right: 1rem;
     }
     .nv {
-        position: relative;
+        position: sticky;
+        top: 0;
     }
     .nv .logo {
         margin-left:1rem;
